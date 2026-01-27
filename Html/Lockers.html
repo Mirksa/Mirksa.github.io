@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve a Locker - Planfond</title>
+    <link rel="stylesheet" href="/Css/Lockers.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Reservering_maken.html">Reservering maken</a></li>
+            <li><a href="Reserveringen.html">Reserveringen</a></li>
+            <li><a href="Lockers.html">Lockers</a></li>
+            <li><a href="account.html">Accounts</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h1>Reserve a Locker</h1>
+
+    <div class="locker-form">
+        <form action="#" method="post"> 
+            <label for="locker">Select Locker</label>
+            <select id="locker" name="locker" required>
+                <option value="">--Select a Locker--</option>
+                <option value="locker1">Locker 1</option>
+                <option value="locker2">Locker 2</option>
+                <option value="locker3">Locker 3</option>
+            </select>
+
+            <label for="date">Start Date</label>
+            <input type="date" id="date" name="startdate" required>
+
+            <label for="date">End Date</label>
+            <input type="date" id="date" name="enddate" required>
+
+            <label for="notes">Additional Notes</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Any special requests"></textarea>
+
+            <button type="submit">Reserve Locker</button>
+        </form>
+    </div>
+</body>
+</html>
