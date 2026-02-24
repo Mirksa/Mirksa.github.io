@@ -1,11 +1,10 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #add8e6; /* Light blue background */
+    background-color: #add8e6; 
     text-align: center;
 }
 
-/* Navigation styling */
 nav {
     background: none;
     padding: 30px;
@@ -24,7 +23,7 @@ nav ul {
 
 nav a {
     display: inline-block;
-    background-color: #0066cc; /* Blue buttons */
+    background-color: #0066cc; 
     color: white;
     text-decoration: none;
     font-size: 1.2em;
@@ -36,8 +35,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ffcc00; /* Yellow on hover */
-    color: #004080; /* Dark text on hover */
+    background-color: #6cd3d8;
+    color: #004080; 
     transform: translateY(-2px);
 }
 
@@ -49,7 +48,6 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Contact form styling */
 .contact-form {
     background-color: rgba(255, 255, 255, 0.9);
     display: inline-block;
@@ -96,7 +94,7 @@ h1 {
     background-color: #004080;
 }
 
-/* Mobile Responsive Styles */
+/*media tags voor andere resoluties*/
 @media (max-width: 768px) {
     nav {
         padding: 20px 10px;
@@ -127,7 +125,7 @@ h1 {
 
     .contact-form input,
     .contact-form textarea {
-        font-size: 16px; /* Prevents zoom on iOS */
+        font-size: 16px; 
     }
 
     .contact-form button {
